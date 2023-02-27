@@ -1,0 +1,280 @@
+@import url(./default.css);
+@import url(./fonts.css);
+
+
+header{
+    width: 100%;
+    background-image: url(../img/imgBackground1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px 0 99px 0;
+    color: #fff;
+    margin-bottom: 160px;
+}
+
+.main-menu{
+    margin-bottom: 150px;
+}
+
+nav{
+    width: 18%;
+}
+
+nav a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #dd9428;
+}
+
+header .vertical-container h1{
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    margin-bottom: 50px;
+}
+
+header .vertical-container p{
+    width: 70%;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.horisontal-container .btns{
+    width: 90%;
+    margin-bottom: 120px;
+}
+
+.btns .btn{
+    color: rgb(255, 255, 255);
+    background-color: #dd9428;
+    border: 1px solid transparent;
+}
+
+.btns .btn:hover{
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+}
+
+.btns .btn2:hover{
+    color: rgb(255, 255, 255);
+    background-color: #dd9428;
+    border: 1px solid transparent;
+}
+
+.btns .btn2{
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+    margin-top: 50px;
+}
+
+.textOpen{
+    height: 190px;
+    width: 830px;
+    margin-bottom: 50px;
+}
+
+.textauthor{
+    height: 90px;
+    width: 547px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    margin-bottom: 70px;
+}
+
+.spanText{
+    margin-left: 61px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.subscrybe{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 121px;
+}
+
+.container11{
+    height: 475px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 260px;
+    margin-right: 282px;
+}
+
+.imgbg{
+    width: 830px;
+    height: 475px;
+    background-image: url(../img/imghaw1.png);
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.textcont11{ 
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    src:url(./fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+    height: 110px;
+    width: 401px;
+    margin-top: 35px;
+}
+
+.textcont11 P{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+    width: 448px;
+    height: 132px;
+}
+
+.ttandsvg{
+    justify-content: space-between;
+    display: flex;
+    height: 58px;
+    width: 830px;
+    margin-top: 264px;
+    margin-right: 60px;
+}
+
+.container12{
+    background-image: url(../img/imgForm1.png);
+    background-size: cover;
+    width: 1920px;
+    height: 518px;
+    margin-top: 160px;
+    justify-content: right;
+    display: flex;
+    margin-right: 255px;
+}
+
+.kon{
+    margin-top: 150px;
+}
+
+.yoreame{
+    margin-right: 255px;
+    margin-top: 150px;
+    margin-left: 84px;
+}
+
+.text4{
+    height: 75px;
+    width: 283px;
+}
+/* Montserrat */
+.container13{
+    height: 475px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-left: 260px;
+    margin-right: 282px;
+    margin-bottom: 160px;
+}
+
+.imgbg{
+    width: 830px;
+    height: 475px;
+    background-image: url(../img/imgHawaii2.png);
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.textcont13{ 
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    src:url(./fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+    height: 110px;
+    width: 401px;
+    margin-top: 35px;
+   
+}
+
+.textcont13 P{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+    width: 448px;
+    height: 132px;
+}
+
+.contfuter{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #f8f8f8;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+}
+
+.contfuter1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contfuter2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+
+.text88{
+    width: 163px;
+    height: 40px; 
+    margin-left: 123px;
+    font-size: 14px;
+line-height: 20px;
+color: #90A4B2;
+}
+
+.text99{
+    width: 195px;
+    height: 40px;
+    margin-left: 123px;
+    font-size: 14px;
+line-height: 20px;
+color: #90A4B2;
+}
+
+.logo{
+    margin-left: 120px;
+}
